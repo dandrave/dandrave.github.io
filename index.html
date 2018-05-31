@@ -1,0 +1,264 @@
+<html>
+<head>
+<style>
+
+container{
+	position:absolute;
+	height:1120px;
+	width:800px;
+	left:250px;
+}
+
+header{
+	top:5px;
+	left:5px;
+	position:absolute;
+	height:140px;
+	width:790px;
+	background:url('img/Untitled-3.gif');
+	border-radius: 10px;
+	box-shadow: 0 2px 1px #9c9c9c;
+}
+
+borderH{
+	position:absolute;
+	width:800px;
+	height:147px;
+	background:#383838;
+}
+
+/*Nav */
+menu{
+	position:absolute;
+	height:40px;
+	left:5px;
+	width:788px;
+	padding: 10px 0 0 0;
+    list-style: none;  
+    background-image: linear-gradient(#444,#111);
+    border-radius: 5px;
+    box-shadow: 0 2px 1px #9c9c9c;
+}
+ 
+menu li {
+	float: left;
+	padding: 0 0 10px 0;
+    position: relative;
+}
+ 
+menu li a {
+	float: left;
+    height: 25px;
+    padding: 0 13px;
+    color:#999;
+    text-transform: uppercase;
+    font: bold 14px/30px Arial, Helvetica;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #000;
+	}
+
+menu li a:hover{
+    color:#fafafa;
+}
+
+menu li:hover ul {
+    display: block;
+}
+
+
+menu ul{
+    list-style: none;
+    height: auto;
+    padding: 0;    
+    display: none;
+    width:114px;
+    position: absolute;
+    top: 35px;  
+    background-color: #444;
+    z-index:9999;
+    text-transform: none;
+    background-image: linear-gradient(#444, #111);
+
+ 
+}
+menu ul li:hover{
+    padding:0px;
+    position: relative;
+    height: auto;
+    width:94px;
+    z-index:9999;
+    text-transform: none;
+    background-image: linear-gradient(#04acec, #0186ba);
+
+}
+
+
+
+menu ul li a:hover{   
+    padding:10px;
+    height: auto;
+    width:94px;
+    line-height:1;
+    text-transform: none;
+    background-color: #fafafa;
+    background-image: linear-gradient(#04acec, #0186ba);
+}
+
+menu a:hover, li:hover {
+    background-image: linear-gradient(#04acec, #0186ba);
+}
+/*End Nav*/
+
+holder{
+	top:5px;
+	position:absolute;
+	height:70px;
+	width:800px;
+	background:#686868;
+	box-shadow: 0 2px 1px #9c9c9c;
+}
+
+content{
+	top:83px;
+	left:5px;
+	background:url('img/Untitled-2.gif');
+	position:absolute;
+	width:790px;
+	height:830px;
+	border-radius: 10px;
+	box-shadow: 0 2px 1px #9c9c9c;
+}
+
+borderC{
+	top:147px;
+	position:absolute;
+	width:800px;
+	height:920px;
+	background:#383838 ;
+}
+
+footer{
+	top:1px;
+	left:5px;
+	position:absolute;
+	width:790px;
+	height:40px;
+	border-radius:10px;
+	background:url('img/Untitled-2.gif');
+	box-shadow: 0 2px 1px #9c9c9c;
+}
+
+borderF{
+	top:1067px;
+	position:absolute;
+	width:800px;
+	height:50px;
+	background:#383838 ;
+	box-shadow: 0 2px 1px #9c9c9c;
+}
+
+content1{
+	position:absolute;
+	top:20px;
+	left:45px;
+	width:700px;
+	height:300px;
+	background:orange;
+	border-radius:10px;
+	box-shadow:4px 4px 4px #9c9c9c;
+}
+mostplayed{
+	position:absolute;
+	top:673px;
+	left:10px;
+	height:165px;
+	width:380px;
+}
+newgames{
+	position:absolute;
+	padding:12px;
+	top:660px;
+	left:390px;
+	height:167px;
+	width:390px;
+	border-left:dotted;
+}
+</style>
+</head>
+<!----this for the body---->
+<body style="background:url('img/Untitled-10.png')">
+	<container>
+		<borderH>
+			<header>		
+				<img src="img/Untitled-4.gif" alt="Untitled-4" width="50px" height="50px" style="position:relative;top:10px;left:10px;">
+			</header>
+		</borderH>
+	<!----this for the nav---->
+
+<!----this for the content---->
+	<borderC>
+			<holder>
+			
+			</holder>
+				<menu>
+					<li>:<a href="#">Home</a></li>:
+					<li><a href="#">Categories</a>:
+						<ul>
+							<li><a href="#">1 PLAYER</a></li>
+							<li><a href="#">2 PLAYER</a></li>
+							<li><a href="#">ACTION</a></li>
+							<li><a href="#">ADVENTURE</a></li>
+							<li><a href="#">STICK</a></li>
+							<li><a href="#">BALL</a></li>
+							<li><a href="#">RACING</a></li>
+							<li><a href="#">MATH</a></li>
+						</ul>
+					</li>
+					<li>:<a href="#">About </a></li>
+					<li><a href="#">Contact Us</a></li>
+				</menu>
+		<content>
+			<content1>
+				<img src="img/slider.jpg" alt="slider" width="670px" height="270px" style="padding:15px;">
+			</content1>
+			<hr style="position:relative;top:650px;">
+				<img src="img/Untitled-1.gif" alt="Untitled-1" style="position:absolute;top:630px;left:5px;border-top-left-radius:10px;border-top-right-radius:10px;">
+				<img src="img/newgames.gif" alt="newgames" style="position:absolute;top:630px;left:400px;border-top-left-radius:10px;border-top-right-radius:10px;">
+				
+				<newgames>
+					<a href="Games/1Player/happywheels.html"><img src="Games/1Player/14-happyWheel.jpeg" alt="Dagobah Happy Wheels DEMO" width="70px" height="70px"></a>
+					<a href="Games/1Player/flyingcharizard.html"><img src="Games/1Player/16charizard.jpeg" alt="Flying Charizard" width="70px" height="70px"></a>
+					<a href="Games/1Player/bowman2.html"><img src="Games/1Player/18bowman.jpeg" alt="BowMan 2" width="70px" height="70px"></a>
+					<a href="Games/Action/stickfighter.html"><img src="Games/Action/05.jpeg" alt="Stick Fighter 2" width="70px" height="70px"></a>
+					<a href="Games/Adventure/fancypants.html"><img src="Games/Adventure/02.jpeg" alt="Fancy Pants Adventure 2" width="70px" height="70px"></a>
+					<a href="Games/Ball/basketball.html"><img src="Games/Ball/12.jpeg" alt="Cannon Basketball 2" width="70px" height="70px"></a>
+					<a href="Games/Math/mathequation.html"><img src="Games/Math/20math.jpeg" alt="Math Equations" width="70px" height="70px"></a>
+				</newgames>
+				<mostplayed>
+					<a href="Games/2Player/stickfigurebadminton.html"><img src="Games/2Player/03.jpeg" alt="Stick Figure BADMINTON 2" width="70px" height="70px"></a>
+					<a href="Games/Stick/ragdoll.html"><img src="Games/Stick/09.jpeg" alt="Ragdoll" width="70px" height="70px"></a>
+					<a href="Games/2Player/dragonfist.html"><img src="Games/2Player/10.jpeg" alt="Dragon Fist 3" width="70px" height="70px"></a>
+					<a href="Games/2Player/playwithfire.html"><img src="Games/2Player/17playWfire.jpeg" alt="Play with Fire 2" width="70px" height="70px"></a>
+					<a href="Games/Action/sticktrinity.html"><img src="Games/Action/06.jpeg" alt="Stick Trinity 2" width="70px" height="70px"></a>
+					<a href="Games/Action/berzerkerstick.html"><img src="Games/Action/08.jpeg" alt="Berzerker Stick" width="70px" height="70px"></a>
+				</mostpalyed>
+				
+		</content>
+	</borderC>
+<!----this for the footer---->
+			<borderF>
+					<footer>
+						<p>Copyright &copy RaevNho.inc - Alright Reserved</p>
+						<a href="#"><img src="img/fb.jpg" alt="fb" height="30px" width="30px" style="position:absolute;top:5px;box-shadow: 0 2px 1px #9c9c9c;left:680px;border-radius:50px;"></a>
+						<a href="#"><img src="img/gmail.jpg" alt="gmail" height="30px" width="30px" style="position:absolute;top:5px;box-shadow: 0 2px 1px #9c9c9c;left:720px;border-radius:50px;"></a>
+						<a href="#"><img src="img/google.jpg" alt="google" height="30px" width="30px" style="position:absolute;top:5px;box-shadow: 0 2px 1px #9c9c9c;left:640px;border-radius:50px;"></a>
+						<a href="#"><img src="img/blogger.jpeg" alt="blogger" height="30px" width="30px" style="position:absolute;top:5px;box-shadow: 0 2px 1px #9c9c9c;left:600px;border-radius:50px;"></a>
+						<a href="#"><img src="img/twitter.jpeg" alt="twitter" height="30px" width="30px" style="position:absolute;top:5px;box-shadow: 0 2px 1px #9c9c9c;left:560px;border-radius:50px;"></a>
+						<a href="#"><img src="img/tumblr.jpg" alt="tumblr" height="30px" width="30px" style="position:absolute;top:5px;box-shadow: 0 2px 1px #9c9c9c;left:520px;border-radius:50px;"></a>
+						<a href="#"><img src="img/faborites.jpeg" alt="faborites" height="30px" width="30px" style="position:absolute;top:5px;box-shadow: 0 2px 1px #9c9c9c;left:480px;border-radius:50px;"></a>
+						<a href="#"><img src="img/ymail.jpeg" alt="ymail" height="30px" width="30px" style="position:absolute;top:5px;box-shadow: 0 2px 1px #9c9c9c;left:440px;border-radius:50px;"></a>						
+					</footer>
+			</borderF>
+	</container>
+</body>
+</html>
